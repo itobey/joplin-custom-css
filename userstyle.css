@@ -1,3 +1,4 @@
+/* For styling the rendered Markdown */
 * .annotator-hl {
   background-color: rgba(0, 216, 181, .3) !important;
   border: 3px solid red !important;
@@ -9,10 +10,10 @@ body {
 }
 code,
 pre {
-  font-family: 'iA Writer Mono V', 'Fira Code';
-  // font-weight: 600;
-  // font-size: .95em;
+  font-family: 'Source Code Pro', 'iA Writer Mono V', 'Fira Code';;
+  font-weight: 400 !important;
   line-height: 1.5em;
+  font-size: 0.95em;
   border-radius: 4px;
 }
 
@@ -38,6 +39,10 @@ pre code {
 img[title='250px'] { width: 250px; }
 img[title='150px'] { width: 150px; }
 img[title='450px'] { width: 450px; }
+img[title='500px'] { width: 500px; }
+img[title='800px'] { width: 800px; }
+img[title='1000px'] { width: 1000px; }
+img[title='1500px'] { width: 1500px; }
 mark {
   background: #3edbff53 !important;
   padding: 1px 3px;
@@ -86,5 +91,18 @@ a .resource-icon {
   display: none;
 }
 a[href='#'] {
-  color: green;
+    color: #444;
+    font-weight: 600;
+    background: #ddd;
+    padding: 0.5em;
+    border-radius: 5px;
+    margin-left: 1em;
+}
+
+h2 {
+border-bottom: 2px solid #eee;
+}
+
+img {
+    margin-left: 1em;
 }
