@@ -106,3 +106,8 @@ border-bottom: 2px solid #eee;
 img {
     margin-left: 1em;
 }
+
+.katex-display>.katex {
+  text-align: left;
+  margin-left: 1em;
+}
