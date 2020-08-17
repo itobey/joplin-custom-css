@@ -61,6 +61,10 @@ li.md-checkbox {
     cursor: pointer !important;
 }
 
+p strong {
+	color: #555;
+}
+
 /* Note: This is also set in the app directly, so if you remove it it may not
  * go away as expected. */
 .md-checkbox .checkbox-label-checked,
